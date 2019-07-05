@@ -1,0 +1,6 @@
+[2019-07-05 14:21:27 pm] logs.Framework.INFO: visitor location details:: failed to get visitor location. ip: 127.0.0.1 & message: reserved range []*
+[2019-07-05 14:21:51 pm] logs.Framework.INFO: login failure with username: smohamed []*
+[2019-07-05 14:23:11 pm] logs.Framework.INFO: New login : user_id-> 11 []*
+[2019-07-05 14:23:11 pm] logs.Framework.INFO: User Login : user_id-> 11 []*
+[2019-07-05 14:27:38 pm] logs.Framework.INFO: visitor location details:: failed to get visitor location. ip: 127.0.0.1 & message: reserved range []*
+[2019-07-05 14:28:00 pm] logs.Framework.INFO: visitor location details:: failed to get visitor location. ip: 127.0.0.1 & message: reserved range []*

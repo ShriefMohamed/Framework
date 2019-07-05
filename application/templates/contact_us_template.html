@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<div id="template-container">
+    <strong id="template-head">New Contact & Support email</strong>
+
+    <div id="template-spacer"></div>
+
+    <p>Hello, My name is:</p>
+    <p>{{ name }}</p>
+    <p>I have some question about {{ topic }} > {{ sub-topic }} </p>
+    <p>My Message is:</p>
+    <p>{{ message }}</p>
+</div>
+
+<style>
+    #template-container {width: 100%}
+    #template-container #template-head {}
+    #template-container #template-spacer {border-top: solid 1px #ccc;margin: 20px 0;width: 40%;}
+
+</style>
+</body>
+</html>

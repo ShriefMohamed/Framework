@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+/* reset-min */
+html{color:#000;background:#FFF;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend
+,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}
+legend{color:#000;}
+
+/* fonts-min */
+body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;}
+select,input,button,textarea{font:99% arial,helvetica,clean,sans-serif;}
+pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+
+/* Style.css */
+/* body */
+body {width:100%;height: 100vh}
+#layout {width: 100%;min-height: 100vh;position: relative;height: auto;
+    background: -webkit-linear-gradient(left, #E6E6E6, #00c6ff)}
+#admin-container {display: flex}
+#container {}
+
+/* Not Found */
+#id-404 {width: 30%;position: relative;left: 35%;top: 50px;text-align: center;height: 200px}
+#id-404 span {font-size: 25px;font-weight: 800;color: #444;}
+#id-404 p {font-size: 15px;color: #333;text-align: center;position: relative;margin: 20px 0;}
+#id-404 p a {text-decoration: none;color: #333;font-weight: 700}
+
+.margin-top50 {margin-top: 50px !important;}
+
+
+/* login/register */
+.login-div {width: 32%;background: #fff;border-radius: 10px;overflow: hidden;padding: 40px 55px 33px 55px;
+    margin: auto;position: relative;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);-moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);}
+.login-div .title {display: block;font-size: 30px;color: #333333;line-height: 1.2;text-align: center;}
+.login-div form {width: 100%;margin: 35px 0;}
+.login-div form .input,
+.login-div form .gender-div {width: 100%;position: relative;border-bottom: 2px solid #adadad;margin-bottom: 37px;}
+.login-div form .input input {font-family: Poppins-Regular, sans-serif;font-size: 15px;color: #555555;line-height: 1.2;
+    display: block;width: 100%;height: 45px;background: transparent;padding: 0 5px;border: none}
+.login-div form .input input:focus {outline: none}
+.login-div form .input textarea {width: 100%;padding: 8px;color: rgb(73, 80, 87);border: 1px solid rgb(206, 212, 218);
+    border-radius: 4px;z-index: auto;position: relative;line-height: 24px;font-size: 16px;resize: none;}
+.login-div form .gender-div .gender {display: inline-block;position: relative;}
+.login-div form .gender-div .female {margin-left: 20%}
+.login-div form .gender label {font-family: Poppins-Regular, sans-serif;font-size: 16px;color: #555555}
+.login-div form .status select {font-family: Poppins-Regular, sans-serif;font-size: 16px;color: #555555;
+    padding: 8px;border-radius: 4px;width: 100%;}
+.login-div form .input:focus-within {border-bottom: solid 2px #a209e2}
+
+.login-div form .submit {display: -webkit-box;display: -webkit-flex;display: -moz-box;
+    display: -ms-flexbox;display: flex;flex-wrap: wrap;justify-content: center;padding-top: 13px;}
+.login-div form .submit .container {width: 100%;display: block;position: relative;z-index: 1;
+    border-radius: 25px;overflow: hidden;margin: 0 auto;}
+
+.login-div form .submit .container div {position: absolute;z-index: -1;width: 300%;height: 100%;background: #a64bf4;
+    background: -webkit-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);background: -o-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
+    background: -moz-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);background: linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
+    top: 0;left: -100%;
+    -webkit-transition: all 0.4s;-o-transition: all 0.4s;-moz-transition: all 0.4s;transition: all 0.4s;}
+.login-div form .submit .container button {font-family: Poppins-Medium;font-size: 15px;color: #fff;
+    line-height: 1.2;text-transform: uppercase;left: 33%;position: relative;
+    display: -webkit-box;display: -webkit-flex;display: -moz-box;display: -ms-flexbox;display: flex;
+    justify-content: center;align-items: center;padding: 0 20px;height: 50px;background: none;border: none}
+
+.login-div form .submit .container div:hover {left: 0;}
+.login-div .footer {padding-top: 40px}
+.login-div .register-footer {padding-top: 0}
+.login-div .footer span {font-family: Poppins-Regular;font-size: 13px;color: #666666;line-height: 1.5;}
+.login-div .footer span .register {font-family: Poppins-Regular;font-size: 13px;color: #333333;line-height: 1.5;}
+.login-div #forgot-password {position: absolute;margin-top: 50px;}
